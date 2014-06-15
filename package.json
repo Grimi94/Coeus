@@ -1,0 +1,26 @@
+{
+  "name": "coeus",
+  "version": "0.0.0",
+  "description": "A simple command line utility in order to visualize the current directory using D3.",
+  "main": "bin.js",
+  "preferGlobal": "true",
+  "bin": {
+    "coeus": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "fs",
+    "d3"
+  ],
+  "author": "Antonio Grimaldo <grimi94@gmail.com>",
+  "contributers": [
+    "Alexander Gugel <alexander.gugel@gmail.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.4.3"
+  }
+}
